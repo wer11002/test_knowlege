@@ -88,7 +88,7 @@ export default function AddMoneyPage() {
             <textarea
               value={reason}
               onChange={(e) => setReason(e.target.value)}
-              className="w-full p-4 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent resize-none"
+              className="w-full p-4 border border-gray-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent resize-none text-black"
               rows={4}
               placeholder="Add a note about this transaction..."
             />
